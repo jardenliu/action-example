@@ -35,6 +35,5 @@ jobs:
             recreate: true
             assets: >
               abc.txt:abc.txt:text/plain
-              abc.txt:abc2.txt:text/plain
               
 
