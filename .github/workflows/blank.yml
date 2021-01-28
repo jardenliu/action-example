@@ -33,5 +33,5 @@ jobs:
             prerelease: false
             recreate: true
             assets: >
-              abc.txt:xyz.txt:text/plain
+              abc.txt:abc-release.txt:text/plain
 
