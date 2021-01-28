@@ -26,7 +26,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: release
         id: release
-        uses: jardenliu/auto-release@v1
+        uses: jardenliu/auto-release@main
         with:
             token: ${{github.token}}
             name: latest release
