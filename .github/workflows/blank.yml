@@ -30,8 +30,8 @@ jobs:
             token: ${{github.token}}
             name: latest release
             code: latest
-            prerelease: true
-            recreate: false
+            prerelease: false
+            recreate: true
             assets: >
               abc.txt:xyz.txt:text/plain
 
